@@ -1,4 +1,4 @@
-FROM jboss/keycloak-adapter-wildfly:3.4.3.Final
+FROM jboss/keycloak-adapter-wildfly:4.0.0.Beta2
 
 MAINTAINER Robert Brem <robert.brem@adesso.ch>
 
