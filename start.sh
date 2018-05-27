@@ -37,7 +37,7 @@ else
 fi
 
 echo "=> Deploy application"
-mv ${JBOSS_HOME}/application.war ${JBOSS_HOME}/standalone/deployments/
+mv ${JBOSS_HOME}/application.war ${JBOSS_HOME}/standalone/deployments/ROOT.war
 
 echo "=> Restarting WildFly"
 $JBOSS_HOME/bin/$JBOSS_MODE.sh -b 0.0.0.0 -c $JBOSS_CONFIG
